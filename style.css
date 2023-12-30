@@ -1,0 +1,87 @@
+.form-control , .btn {
+  border-radius: 10px;
+}
+
+.line1, .line2, .line3 {
+    height: 3px;
+    width: 35px;
+    border-radius: 10px;
+    background: black;
+    transition: 0.5s;
+}
+
+.line1 , .line2 {
+    margin-bottom: 3px;
+}
+
+.change .line1 {
+    transform: translate(0,6px) rotate(-45deg);
+  }
+  
+  .change .line2 {opacity: 0;}
+  
+  .change .line3 {
+    transform: translate(0,-6px) rotate(45deg);
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+
+  body {
+    background: rgb(230, 227, 227);
+  }
+
+.macbook_slide {
+  margin-top: 30%;
+}
+
+.iphone14plus_slide {
+  margin-top: 10%;
+}
+
+.applewatch_slide {
+  width: 90%;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+
+.sect {
+  max-width: 650px;
+}
+
+.airpods_slide {
+  margin-top: 10%;
+}
+
+.theme {
+  cursor: pointer;
+}
+
+.sliders {
+  height: calc(720px);
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.card {
+  background: none;
+  border: none;
+}
+
+/* .sm-cards {
+  margin-top: -10px;
+} */
+
+.btn {
+  width: 75px;
+}
+
+.iphone_se2022 {
+  margin-top: -50px;
+}
+
